@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background circle -->
+  <circle cx="200" cy="150" r="120" fill="#2C3E50"/>
+  
+  <!-- Car body -->
+  <path d="M120 170 
+           C120 170, 150 170, 180 170 
+           L220 170 
+           C250 170, 280 170, 280 170
+           L280 140
+           C280 140, 260 140, 240 140
+           L220 120
+           C200 120, 180 120, 160 120
+           L140 140
+           C120 140, 120 140, 120 140
+           Z" 
+        fill="#E74C3C"/>
+  
+  <!-- Windows -->
+  <path d="M180 140
+           L220 140
+           L210 125
+           L170 125
+           Z"
+        fill="#ECF0F1"/>
+  
+  <!-- Wheels -->
+  <circle cx="150" cy="170" r="20" fill="#95A5A6"/>
+  <circle cx="250" cy="170" r="20" fill="#95A5A6"/>
+  <circle cx="150" cy="170" r="12" fill="#7F8C8D"/>
+  <circle cx="250" cy="170" r="12" fill="#7F8C8D"/>
+  
+  <!-- Company name -->
+  <text x="200" y="220" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        fill="white" 
+        text-anchor="middle" 
+        font-weight="bold">
+    SPEEDLINE
+  </text>
+</svg>
